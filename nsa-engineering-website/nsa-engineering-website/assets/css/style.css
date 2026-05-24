@@ -1,0 +1,31 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #020617;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,0.85),
+    rgba(0,0,0,0.6),
+    rgba(234,88,12,0.2)
+  );
+}
+
+.glass {
+  backdrop-filter: blur(10px);
+}
+
+.hover-card:hover {
+  transform: translateY(-10px);
+}
+
+.transition-all-custom {
+  transition: all 0.4s ease;
+}
